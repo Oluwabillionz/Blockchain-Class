@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>layout</title>
+  <style>
+    body{margin:0px auto; background:linear-gradient(pink,white)}
+     h1{color:white; text-align:center; background:linear-gradient(pink,purple); position:relative; top:0px;}
+    img{height:200px; width:100%;}
+    div {height:150px;width:100vw; color:White;}
+    h2{text-align:center;}
+    .container{background:white; height:1350px; width:100%; display:grid; gap:10px }
+    .box:nth-child(1){background-color:Red;}
+    .box:nth-child(2){background-color:blue;}
+    .box:nth-child(3){background-color:green;}
+    .box:nth-child(4){background-color:#844343;}
+    .box:nth-child(5){background-color:aquamarine;}
+    .box:nth-child(6){background-color:orange;}
+    .box:nth-child(7){background-color:pink;}
+    .box:nth-child(8){background-color:purple;}
+    .box:nth-child(9){background-color:aqua;}
+    /*media query for tablet version*/
+    @media screen and (min-width:700px)
+    div{height:100px; width:100px; color:white;}
+    .container{background:pink; height:450px; width:100%;grid-template-rows:repeat(3 1fr)}
+  </style>
+</head>
+
+<body>
+<h1>welcome to <br>Chaindustry</h1>
+<!--<img src="/Blockchain Development/Images/Chaindustry.png" alt="logo">-->
+<div class="container">
+  <div class="box">
+    <h2>Blockchain</h2>
+  </div>
+  <div class="box">
+    <h2>
+      Design
+    </h2>
+  </div>
+  <div class="box">
+    <h2>
+      Video
+    </h2>
+  </div>
+  <div class="box">
+    <h2>
+      Marketing 
+    </h2>
+  </div>
+  <div class="box">
+    <h2>
+      Data Analysis
+    </h2>
+  </div>
+  <div class="box">
+    <h2>
+      Trading 
+    </h2>
+  </div>
+  <div class="box">
+    <h2>
+      Basic Class
+    </h2>
+  </div>
+  <div class="box">
+    <h2>
+      Intermediate Class
+    </h2>
+  </div>
+  <div class="box">
+   <h2>Advanced Class</h2>
+  </div>
+  </div>
+</body>
+
+</html>
